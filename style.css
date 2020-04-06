@@ -1,0 +1,13 @@
+.container {
+  border: 5px solid blue;
+  border-radius: 25px;
+  background-color: #ce1818;
+  height: 400px;
+  width: 600px;
+}
+
+.container .container_title {
+  font-size: 50px;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

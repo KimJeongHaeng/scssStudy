@@ -1,0 +1,20 @@
+@import './color.scss';
+
+$mainHeight: 200px;
+
+@mixin some {
+    border: 5px solid blue;
+    border-radius: 25px;
+}
+
+.container {
+    @include some;
+    background-color: $warning;
+    height: $mainHeight*2;
+    width: $mainHeight*3;
+
+    .container_title {
+        font-size: 50px;
+        color: white;
+    }
+}

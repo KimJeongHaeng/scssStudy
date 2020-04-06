@@ -1,0 +1,24 @@
+sass vs scss(sass의 변형형태)
+컴파일 전처리 플러그인은 같음
+sass : ruby의 문법을 따라해서 쓴 css의 변형형태
+    : indent로 구분(탭으로 구분, ';'으로 구분하지 않음)
+    : 변수는 @some  = #ffff
+    : @media, @animation .. 이미있는 변수
+
+scss : ruby에서 벗어남, css 간단하게 사용
+
+
+postcss
+
+
+
+scss -> live scss install 후, >live sass로 css 파일 자동 생성
+
+
+
+
+rf>
+자손결합자(li li) -> li의 모든 자손
+자식결합자(li > li) -> li의 바로 밑의 자식
+인접형제결합자(li + h1) -> 같은 형제중 li 바로 아래에 있는 h1 형제
+일반형제결합자(li ~ h1) -> 같은 형제중 li 아래에 h1이 있는 경우
